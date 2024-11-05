@@ -1,0 +1,125 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo uma fonte padrão */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e098ed;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Estilo para o título principal */
+  h1 {
+    font-size: 2.5rem;
+    color: #3c1478;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo do formulário */
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo dos campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  textarea:focus {
+    border-color: #3c1478;
+    outline: none;
+  }
+  
+  /* Estilo para o botão */
+  button {
+    background-color: #3c1478;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.centro{
+  text-align: center;
+}
+  
+  button:hover {
+    background-color: #3c1478;
+  }
+  
+  /* Estilo de texto abaixo do botão */
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    background-color: #3c1478;
+  }
+  
+  /* Estilo das mensagens de erro ou sucesso */
+  .error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  
+  .success-message {
+    color: #2ecc71;
+    font-size: 0.9rem;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de link */
+  a {
+    color: #3c1478;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout responsivo */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    form {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    button {
+      width: 100%;
+      padding: 12px;
+    }
+  }
